@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgb(29, 29, 29);
+}
+
+nav h5 {
+    color: #22E575;
+    font-weight: 400;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+
+}
+
+nav li {
+    margin: 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero-container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-container .social-links {
+    margin-top: 1rem;
+}
+
+.hero-container a {
+    color: white;
+    text-decoration: none;
+    margin: .5rem;
+    font-size: 1.5rem;
+}
+
+.hero-container h2 {
+    font-weight: 900;
+}
+
+.hero-container h1 {
+    font-weight: 300;
+    font-size: 3rem;
+}
+
+.hero-container h1 span {
+    color: #22E575;
+}
+
+#projects {
+    margin-top: 8rem;
+
+}
+
+#projects .project-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+#projects img {
+    width: 100%;
+}
+
+#projects .project-container .item {
+    flex: 20%;
+    background-color: #D9D9D9;
+
+    padding: 2rem 1rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+
+}
+
+#projects h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin: 4rem auto;
+}
+
+#projects .item .item-content {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#projects .item a {
+    padding: .5rem 2rem;
+    text-decoration: none;
+    margin-right: 1rem;
+    color: white;
+    display: inline-block;
+    text-align: center;
+}
+
+#projects .item .github {
+    background-color: white;
+    color: black;
+}
+
+#projects .item a.demo {
+    background-color: #22E575;
+}
