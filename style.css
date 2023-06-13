@@ -84,10 +84,12 @@ nav a {
 }
 
 #projects .project-container {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3rem;
+/*     justify-content: space-between;
     gap: 3rem;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
 }
 
 #projects img {
@@ -133,4 +135,15 @@ nav a {
 
 #projects .item a.demo {
     background-color: #22E575;
+}
+
+@media(max-width:750px){
+   #projects .project-container {
+    display: grid;
+grid-template-columns: 1fr;
+ 
+/*     justify-content: space-between;
+    gap: 3rem;
+    flex-wrap: wrap; */
+} 
 }
